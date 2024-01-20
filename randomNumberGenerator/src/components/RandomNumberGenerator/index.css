@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 550px;
+  box-shadow: 16px 4px 16px 10px white;
+}
+.heading {
+  color: #0b69ff;
+  font-size: 34px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #333333;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.btn {
+  background-color: #0b69ff;
+  height: 25px;
+  width: 80px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+.number {
+  font-size: 36px;
+  color: #0b69ff;
+  font-weight: bold;
+}

@@ -1,0 +1,162 @@
+.appContainer {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .appContainer {
+    align-items: center;
+  }
+}
+
+.insideContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  margin-top: 20px;
+  min-height: 90vh;
+}
+
+@media screen and (max-width: 767px) {
+  .insideContainer {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .insideContainer {
+    margin-left: 30px;
+  }
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+}
+@media screen and (max-width: 767px) {
+  .nameContainer {
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.spanElement {
+  color: #0b69ff;
+}
+
+.moneyDetailsContainer {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .moneyDetailsContainer {
+    flex-direction: column;
+  }
+}
+.belowPart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .belowPart {
+    flex-direction: row;
+  }
+}
+
+.addTransactionContainer {
+  border: 2px solid #cbd5e1;
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .addTransactionContainer {
+    width: 40%;
+    margin-right: 15px;
+  }
+}
+
+.addTransactionHeading {
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.titleHeading {
+  color: #7e858e;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.inputBox {
+  height: 35px;
+  width: 80%;
+  margin-top: 5px;
+  border: 1px solid #cbd5e1;
+}
+.button {
+  height: 25px;
+  width: 60px;
+  background-color: #7c3aed;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.historyContainer {
+  border: 2px solid #cbd5e1;
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .historyContainer {
+    width: 40%;
+  }
+}
+
+.tableContainer {
+  min-height: 200px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  list-style-type: none;
+}
+
+.column {
+  padding-right: 40px;
+  color: #334155;
+  font-size: 18px;
+}
+.arrangeInColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.transactionItemContainer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}

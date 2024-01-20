@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.userProfileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameText {
+  color: #12022f;
+  font-size: 28px;
+  font-weight: bold;
+}
+.designationText {
+  color: #9aa5b1;
+  font-size: 24px;
+}

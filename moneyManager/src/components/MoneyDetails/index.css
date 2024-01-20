@@ -1,0 +1,57 @@
+.container {
+  height: 120px;
+  width: 33%;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+.yellow {
+  background-color: #ecfccb;
+}
+.blue {
+  background-color: #cffafe;
+}
+.purple {
+  background-color: #ede9fe;
+}
+
+.photo {
+  height: 80px;
+  width: 88px;
+}
+
+.vertical {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.balanceText {
+  font-size: 24px;
+  font-weight: normal;
+}
+.amount {
+  font-size: 20px;
+  padding-bottom: 28px;
+}
+
+.moneyDetailsContainer {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .moneyDetailsContainer {
+    flex-direction: column;
+  }
+}

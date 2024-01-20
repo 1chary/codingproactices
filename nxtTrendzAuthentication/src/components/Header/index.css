@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.navHeader {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  height: 30px;
+  width: 150px;
+}
+.navLink {
+  text-decoration: none;
+}
+.unOrderedList {
+  display: flex;
+  margin-right: 30px;
+}
+.listStyle {
+  list-style-type: none;
+  padding-right: 10px;
+}
+.logOutButton {
+  color: white;
+  height: 25px;
+  width: 70px;
+  background-color: #0b69ff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}

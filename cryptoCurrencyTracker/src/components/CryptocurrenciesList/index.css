@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+  height: 90vh;
+}
+.headingText {
+  color: #00e7ff;
+  font-size: 32px;
+}
+
+.bitcoinImage {
+  height: 250px;
+  width: 70%;
+}
+@media screen and (max-width: 767px) {
+  .bitcoinImage {
+    height: 200px;
+    width: 90%;
+  }
+}
+
+.valueContainer {
+  height: 35vh;
+  width: 70%;
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+}
+.greyContainer {
+  height: 5vh;
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .greyContainer {
+    height: 8vh;
+  }
+}
+
+.coin {
+  color: white;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.usdContainer {
+  display: flex;
+}

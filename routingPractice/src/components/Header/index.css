@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.imageWithText {
+  display: flex;
+  margin-left: 10px;
+}
+.unOrderedList {
+  display: flex;
+  margin-right: 10px;
+}
+.listStyle {
+  list-style-type: none;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.waveText {
+  font-weight: bold;
+}
+.wavePhoto {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+}

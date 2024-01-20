@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.logInContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginHeading {
+  color: black;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+/* Write your code here. */
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.clock {
+  height: 350px;
+  width: 350px;
+}
+.heading {
+  font-size: 34px;
+  color: white;
+}
+.para {
+  color: white;
+}
+.box {
+  height: 40px;
+  width: 250px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.letterContainer {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  color: #219a6f;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .clock {
+    order: 1;
+    height: 600px;
+    width: 700px;
+  }
+  .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mini {
+    margin-left: 20px;
+  }
+}

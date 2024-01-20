@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whiteContainer {
+  height: 30vh;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.dropDownList {
+  height: 25px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .whiteContainer {
+    width: 95%;
+  }
+}
+
+.country {
+  color: black;
+}

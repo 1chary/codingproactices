@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.detailsContainer {
+  width: 90%;
+}
+
+.headingText {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.profileWithName {
+  display: flex;
+}
+
+.detailsPhoto {
+  height: 300px;
+  width: 100%;
+}

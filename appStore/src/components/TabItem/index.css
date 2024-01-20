@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.listContainer {
+  display: flex;
+}
+.button {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+.blueText {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}

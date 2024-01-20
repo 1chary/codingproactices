@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.appContainer {
+  min-height: 100vh;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .appContainer {
+    display: none;
+  }
+}
+
+.eventContainer {
+  background-color: #64748b;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.heading {
+  color: white;
+}
+
+.unOrderedListContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.detailsContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

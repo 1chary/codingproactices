@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.arrangeInRow {
+  display: flex;
+}
+.deleteButton {
+  background-color: transparent;
+  border: none;
+}
+.deletePhoto {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.title {
+  padding-right: 35px;
+}

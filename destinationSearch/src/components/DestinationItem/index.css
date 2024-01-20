@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.photoContainer {
+  list-style-type: none;
+  width: 235px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 32px;
+}
+.photo {
+  height: 170px;
+  width: 200px;
+  border-radius: 20px;
+}
+.para {
+  color: #000000;
+  font-size: 28px;
+  font-family: 'Roboto';
+}

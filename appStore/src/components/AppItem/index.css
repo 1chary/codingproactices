@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.individualContainer {
+  height: 150px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.photo {
+  height: 80px;
+  width: 80px;
+}
+
+.appName {
+  font-size: 14px;
+}

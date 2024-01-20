@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.individualItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px black;
+  list-style-type: none;
+  width: 80%;
+}
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  border: 0.5px solid #616e7c;
+}

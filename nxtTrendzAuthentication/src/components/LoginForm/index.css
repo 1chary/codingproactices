@@ -1,0 +1,117 @@
+/* Write your CSS code here */
+.logInContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.insideContainer {
+  min-height: 80vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .insideContainer {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
+.websiteLogo {
+  height: 70px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .websiteLogo {
+    display: none;
+  }
+}
+
+.websiteImage {
+  height: 350px;
+  width: 45%px;
+  padding-left: 100px;
+}
+@media screen and (max-width: 767px) {
+  .websiteImage {
+    height: 300px;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 70px;
+  }
+}
+
+.formContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 50vh;
+  margin-right: 20px;
+  margin-left: 40px;
+  width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+  .formContainer {
+    box-shadow: 0px 0px 0px 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .websiteTrends {
+    display: none;
+  }
+}
+
+.websiteTrends {
+  height: 50px;
+  width: 120px;
+  padding-left: 200px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .inputContainer {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+.inputLabel {
+  font-size: 24px;
+  color: #1e293b;
+  padding-bottom: 10px;
+}
+
+.inputBox {
+  height: 30px;
+  width: 80%;
+  background-color: #d7dfe9;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 80%;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.errorMessage {
+  color: #ff0b37;
+  font-size: 24px;
+}

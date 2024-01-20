@@ -1,0 +1,26 @@
+/* Write your code here. */
+.listContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  width: 100%;
+  border: 1px solid #d7dae6;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.individualContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  border: 2px solid #e4e7eb;
+  width: 100%;
+}

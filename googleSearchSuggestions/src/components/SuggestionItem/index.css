@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.individualContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.arr {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+}
+.btn {
+  background-color: white;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,62 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.miniContainer {
+  background-color: white;
+  height: 85vh;
+  width: 60%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.heading {
+  color: #000000;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+.number {
+  color: #ffd569;
+  font-size: 45px;
+  font-weight: bold;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: flex-row;
+  justify-content: space-between;
+}
+.photo {
+  height: 300px;
+  width: 250px;
+  margin-right: 20px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: flex-row;
+  justify-content: space-around;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  height: 25px;
+  width: 80px;
+  border: 0px;
+  font-size: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+}

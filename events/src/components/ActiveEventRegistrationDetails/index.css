@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.renderImage {
+  height: 350px;
+  width: 350px;
+}
+
+.registerButton {
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #0967d2;
+  margin-left: 20px;
+  color: white;
+  border: none;
+  outline: none;
+}

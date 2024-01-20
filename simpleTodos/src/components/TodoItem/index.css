@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.btn {
+  height: 26px;
+  width: 70px;
+  background-color: white;
+  color: #ff0b37;
+  border-color: #ff0b37;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    margin-right: 5px;
+  }
+}

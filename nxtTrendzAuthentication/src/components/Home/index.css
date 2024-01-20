@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.homeContainer {
+  display: flex;
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrangeInColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  margin-left: 20px;
+  width: 45%;
+}
+
+@media screen and (max-width: 767px) {
+  .arrangeInColumn {
+    width: 90%;
+  }
+}
+
+.mainHeading {
+  color: black;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.shopNowButton {
+  height: 30px;
+  width: 150px;
+  background-color: #0b69ff;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.noticeFigure {
+  height: 450px;
+}
+
+@media screen and (max-width: 767px) {
+  .noticeFigure {
+    display: none;
+  }
+}
+.smallDevices {
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .smallDevices {
+    display: none;
+  }
+}

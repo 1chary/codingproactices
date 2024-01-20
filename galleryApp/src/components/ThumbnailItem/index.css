@@ -1,0 +1,23 @@
+/* Write your code here. */
+
+.buttonImage {
+  height: 70px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  opacity: 0.5;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.list {
+  list-style-type: none;
+}
+.dark {
+  opacity: 2;
+}

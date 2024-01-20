@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.blueContainer {
+  background-color: #150b3e;
+  width: 40%;
+  height: 75vh;
+  border-radius: 15px;
+}
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.heading {
+  color: #d4d2db;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 25px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bal {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.amount {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.rupees {
+  display: flex;
+  justify-content: flex-end;
+}
+.rs {
+  color: #585076;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 36px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.withdraw {
+  color: white;
+}
+.sum {
+  color: #382f5a;
+}
